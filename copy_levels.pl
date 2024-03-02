@@ -6,12 +6,13 @@ use File::Basename;
 
 =pod
 <USAGE>
-Go to a directory where old *.tlv files and the current .tnz file exist in.
-Open a terminal of Ubuntu (WSL2).
+Open a directory where old *.tlv files and the current .tnz file exist in.
+Open a terminal of Ubuntu (WSL2) using right click.
 Then execute this file as below:
 $ ./copy_levels.pl
 A window will popup.
 Select a directory where new *.tlv files exist in and a replacement will happen.
+Go to your OpenToonz window and do File>Revert Scene.
 
 This script uses Tk so install Tk like
 $ sudo apt-get install perl-tk
