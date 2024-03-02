@@ -4,6 +4,14 @@ use Tk;
 use File::Basename;
 # reference: https://www.tohoho-web.com/perl/perltk.htm
 
+=pod
+<USAGE>
+Go to a directory where you want to replace *.tlv files.
+Open a terminal of Ubuntu (WSL2).
+Then execute this file as below:
+$ ./copy_levels.pl
+=cut
+
 my $top = MainWindow->new();
 my $updir = `pwd`;
 chomp $updir;
