@@ -6,7 +6,7 @@ use File::Basename;
 
 =pod
 <USAGE>
-Go to a directory where old *.tlv files exist in.
+Go to a directory where old *.tlv files and the current .tnz file exist in.
 Open a terminal of Ubuntu (WSL2).
 Then execute this file as below:
 $ ./copy_levels.pl
