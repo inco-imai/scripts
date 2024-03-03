@@ -26,7 +26,7 @@ $updir = dirname($updir);
 #print $updir,"\n";
 
 my $dname = $top->chooseDirectory(-initialdir => '../', -title => 'Choose a directory');
-exit() if ($dname eq $updir); #default
+exit() if ($dname eq $updir); #default value
 exit() unless($dname);
 
 if (!defined $dname){
